@@ -1,6 +1,7 @@
 body { 
   font-family: sans-serif; 
-  background-color: #FFFFFF; 
+  background-image:linear-gradient(white,rgb(236, 236, 236));
+  background-attachment: fixed;
   color: #343434;}
   
 header {  
@@ -40,4 +41,5 @@ text-align:left;
 
 footer {
   color: #575757;
+  background-color: transparent;
   padding: 0.5em;}
