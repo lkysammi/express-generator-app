@@ -34,10 +34,17 @@ nav {
 
 a {text-decoration: none}
 
-h3 {
-text-align:left;
+div>h2 {
+  color: #001552;
+  text-align:left;
   font-family:sans-serif;
-  color: #03036f;}
+  font-weight: bold;}
+
+#project {
+    border: 3px solid #001552;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px 5px #00155254;}
 
 footer {
   color: #575757;
