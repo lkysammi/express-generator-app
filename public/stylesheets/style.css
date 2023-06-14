@@ -1,20 +1,10 @@
-/* CSS File: styles.css
+/* CSS File: style.css
    Student Name: Ka Ying Leung
    Student ID: 301245290
    Date: 14 June 2023 */
 
-main { 
-  font-family: sans-serif; 
-  background-image:repeating-linear-gradient(rgb(240, 250, 255),rgb(249, 243, 233));
-  background-attachment: fixed;
-  color: #343434;}
 
-/* Header Section */
-header {  
-  color: #FFFFFF; 
-  background-repeat: no-repeat;
-  line-height: 400%;}
-
+/* HTML Structure Section */
 label {
   vertical-align: top;
   width: 200px;
@@ -33,12 +23,40 @@ label {
     border-radius:5px;
 }
 
+.left{
+  margin-right: 20px;
+}
+
+.right{
+  margin-left: 20px;
+  }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+a {text-decoration: none}
+
+
+/* Header Section */
+header {  
+  color: #FFFFFF; 
+  background-repeat: no-repeat;
+  line-height: 400%;}
+
+
+/* Main Content Section */
+body { 
+  font-family: sans-serif; 
+  background-image:repeating-linear-gradient(rgb(240, 250, 255),rgb(249, 243, 233));
+  background-attachment: fixed;
+  color: #343434;}
+
 nav {
   text-align: center;
   color: #90C7E3; 
   font-weight: bold;}
-
-a {text-decoration: none}
 
 div>h2 {
   color: #001552;
@@ -52,24 +70,6 @@ div>h2 {
     padding: 30px;
     box-shadow: 5px 5px 5px 5px #95959554;}
 
-footer {
-  color: #575757;
-  background-color: transparent;
-  padding: 0.5em;}
-
-#parent{
-  display: flex;
-  grid-template-columns: 120px 120px 120px;
-  justify-content: space-between;}
- 
-.left{
-  margin-right: 20px;
-}
-
-.right{
-  margin-left: 20px;
-  }
-
 #service {
   border: 3px solid #7b7b7b;
   border-radius: 20px;
@@ -79,11 +79,19 @@ footer {
 #service > h2 {
   text-align: center;}
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;}
+#parent{
+  display: flex;
+  grid-template-columns: 120px 120px 120px;
+  justify-content: space-between;}
 
 #myimage{
    margin-top:15px;
    margin-bottom:15px;}
+
+
+/* Footer Section */
+footer {
+  color: #575757;
+  background-color: transparent;
+  padding: 0.5em;}
+
