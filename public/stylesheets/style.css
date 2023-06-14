@@ -1,9 +1,15 @@
-body { 
+/* CSS File: styles.css
+   Student Name: Ka Ying Leung
+   Student ID: 301245290
+   Date: 14 June 2023 */
+
+main { 
   font-family: sans-serif; 
   background-image:repeating-linear-gradient(rgb(240, 250, 255),rgb(249, 243, 233));
   background-attachment: fixed;
   color: #343434;}
-  
+
+/* Header Section */
 header {  
   color: #FFFFFF; 
   background-repeat: no-repeat;
