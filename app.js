@@ -29,7 +29,7 @@ app.post('/contact', (req, res) => {
   const { fname, lname, phone, email, message } = req.body;
 
   // Redirect to the Home page after form submission
-  res.redirect('/home');
+  res.redirect('/');
 });
 
 
